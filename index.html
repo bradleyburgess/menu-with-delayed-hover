@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cool Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">Logo</div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list-item has-sub-menu" data-menu-item="about">
+              <a href="#">About</a>
+              <ul class="nav__sub-list">
+                <li
+                  class="nav__sub-list-item"
+                  data-menu-item="about__our-staff"
+                >
+                  <a href="#">Our Staff</a>
+                </li>
+                <li
+                  class="nav__sub-list-item"
+                  data-menu-item="about__our-history"
+                >
+                  <a href="#">Our History</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__list-item" data-menu-item="contact">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
